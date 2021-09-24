@@ -107,7 +107,6 @@ void LinkedList<ItemType>::clear()
         size--;
         Node<ItemType> *currPtr = headPtr;
         headPtr = headPtr->getNext();
-        //currPtr->~Node(); // I tried using the "delete" keyword, but was given a malloc error. Why does this solution work but using delete doesnt?
         delete currPtr;
     } 
 }
