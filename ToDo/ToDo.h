@@ -1,7 +1,7 @@
 #ifndef TO_DO_H
 #define TO_DO_H
 
-#include "LinkedList/LinkedList.h"
+#include "/Users/aiorgulescu/Desktop/ToDo Linked List/LinkedList/LinkedList.h"
 
 class ToDo
 {

@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 
-#include "LinkedList.h"
-#include "ToDo.h"
+#include "LinkedList/LinkedList.h"
+#include "ToDo/ToDo.h"
 
 
 int main()
