@@ -134,6 +134,7 @@ ItemType LinkedList<ItemType>::getEntry(int position) const
     catch(int &myPosition)
     {
         std::cout << "Error. Entry does not exist in specified position" << std::endl;
+        return 0;
     }
 
 }
@@ -164,6 +165,7 @@ ItemType LinkedList<ItemType>::replace(int position, ItemType newEntry)
     catch(int &myPosition)
     {
         std::cout << "Error. Invalid position: " << myPosition << std::endl;
+        return 0;
     }
 
 }
