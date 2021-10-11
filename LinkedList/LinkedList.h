@@ -22,7 +22,7 @@ class LinkedList : public ListInterface<ItemType>{
     ItemType replace(int position, ItemType newEntry) override;
     
 
-    ~LinkedList();
+    virtual ~LinkedList();
 
 
 
